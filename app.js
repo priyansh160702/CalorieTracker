@@ -316,7 +316,7 @@ const AppCtrl = (function (ItemCtrl, StorageCtrl,UICtrl) {
         document.querySelector(UISelectors.itemList).addEventListener('click', itemEditClick);
 
         document.querySelector(UISelectors.updateBtn).addEventListener
-            ('click', itemUpdateSubmit);
+        ('click', itemUpdateSubmit);
         
         document.querySelector(UISelectors.backBtn).addEventListener('click', UICtrl.clearEditState);
 
